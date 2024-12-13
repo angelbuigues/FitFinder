@@ -1,0 +1,80 @@
+[
+    {
+        "name": "FitLife_Gym",
+        "address": "123 Wellness Street",
+        "city": "Ciudad de México",
+        "services": [
+            "Área de pesas",
+            "Clases de yoga",
+            "Entrenador personal",
+            "Piscina",
+            "Clases de spinning"
+        ],
+        "rating": 4.5
+    },
+    {
+        "name": "PowerHouse_Fitness",
+        "address": "456 Strength Ave",
+        "city": "Guadalajara",
+        "services": [
+            "Área de cardio",
+            "Clases de kickboxing",
+            "Entrenador personal",
+            "Sauna",
+            "Zona de estiramiento"
+        ],
+        "rating": 4.7
+    },
+    {
+        "name": "Elite_Sports",
+        "address": "789 Muscle Blvd",
+        "city": "Monterrey",
+        "services": [
+            "Clases de pilates",
+            "Zona de crossfit",
+            "Piscina olímpica",
+            "Entrenamiento en grupo",
+            "Clases de natación"
+        ],
+        "rating": 4.9
+    },
+    {
+        "name": "Wellness_Hub",
+        "address": "101 Health Dr",
+        "city": "Puebla",
+        "services": [
+            "Área de pesas libres",
+            "Entrenamiento funcional",
+            "Clases de HIIT",
+            "Spa",
+            "Clases de baile"
+        ],
+        "rating": 4.3
+    },
+    {
+        "name": "Fitness_Center",
+        "address": "202 Fit Lane",
+        "city": "Tijuana",
+        "services": [
+            "Clases de Zumba",
+            "Entrenador personal",
+            "Área de cardio",
+            "Clases de boxeo",
+            "Sala de meditación"
+        ],
+        "rating": 4.2
+    },
+    {
+        "name": "Total_Fitness",
+        "address": "303 Strength St",
+        "city": "Querétaro",
+        "services": [
+            "Clases de artes marciales",
+            "Área de pesas",
+            "Entrenamiento funcional",
+            "Sauna",
+            "Clases de spinning"
+        ],
+        "rating": 4.6
+    }
+]
