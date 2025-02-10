@@ -31,7 +31,7 @@ const goToGymDetail = (gymName) => {
         @click="goToGymDetail(gym.name)"
       >
         <h3>{{ gym.name }}</h3>
-        <img :src="`/assets/img/${gym.name}.png`" alt="logo" />
+        <img :src="`src/assets/img/${gym.name}.png`" alt="logo" />
       </div>
     </div>
   </div>
