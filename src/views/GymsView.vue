@@ -48,7 +48,7 @@ const reserveGym = () => {
       <div class="gym">
         <h3>{{ selectedGym.name }}</h3>
         <img
-          :src="`/src/assets/img/${selectedGym.name}.png`"
+          :src="`/img/${selectedGym.name}.png`"
           alt="FitFinder Logo"
         />
         <p>Dirección: {{ selectedGym.address }}, {{ selectedGym.city }}</p>
