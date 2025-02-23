@@ -55,6 +55,7 @@ const volverAtras = () => {
                 <div v-for="(gym, index) in filteredGyms" :key="index" class="gym">
                     <h3>{{ gym.name }}</h3>
                     <img :src="`/img/${gym.name}.png`" alt="Imagen del gimnasio" />
+                    <button @click="PagarReserva(gym.name)">Pagar Reserva</button>
                     <button @click="eliminarReserva(gym.name)">Eliminar</button>
                 </div>
             </div>

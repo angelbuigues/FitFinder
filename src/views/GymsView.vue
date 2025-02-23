@@ -24,7 +24,7 @@ const goBack = () => {
 };
 
 // Reservar gimnasio
-const reserveGym = () => {
+const reserveGym = (num) => {
   if (gymName.value && !arrayGyms.value.includes(gymName.value)) {
     arrayGyms.value.push(gymName.value);
     localStorage.setItem('arrayGyms', JSON.stringify(arrayGyms.value));
@@ -54,7 +54,9 @@ const reserveGym = () => {
         <p>Dirección: {{ selectedGym.address }}, {{ selectedGym.city }}</p>
         <p>Calificación: {{ selectedGym.rating }} ⭐</p>
         <p>Servicios: {{ selectedGym.services.join(', ') }}</p>
-        <button id="reserve-btn" @click="reserveGym">Reservar</button>
+        <button id="reserve-btn" @click="reserveGym(1)">Reservar 1 dia</button>
+        <button id="reserve-btn" @click="reserveGym(2)">Reservar 1 semana</button>
+        <button id="reserve-btn" @click="reserveGym(3)">Reservar 1 mes</button>
       </div>
     </div>
   </div>
