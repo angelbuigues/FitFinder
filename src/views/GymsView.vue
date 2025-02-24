@@ -71,11 +71,10 @@ const getReservationType = (num) => {
         <div class="gym">
           <h3>{{ selectedGym.name }}</h3>
           <img :src="`/img/${selectedGym.name}.png`" alt="FitFinder Logo" />
-          <p>Dirección: {{ selectedGym.address }}, {{ selectedGym.city }}</p>
-          <p>Precios: Día: {{ selectedGym.pricing.one_day }}€ , Semana: {{ selectedGym.pricing.one_week }}€ , Mes: {{ selectedGym.pricing.one_month }}€
-          </p>
-          <p>Servicios: {{ selectedGym.services.join(', ') }}</p>
           <p>Calificación: {{ selectedGym.rating }} ⭐</p>
+          <p>Dirección: {{ selectedGym.address }}, {{ selectedGym.city }}</p>
+          <p>Servicios: {{ selectedGym.services.join(', ') }}</p>
+          <p>Precios: Día: {{ selectedGym.pricing.one_day }}€ , Semana: {{ selectedGym.pricing.one_week }}€ , Mes: {{ selectedGym.pricing.one_month }}€</p>
 
           <!-- Contenedor para los botones -->
           <div class="button-container">

@@ -9,7 +9,7 @@ import L from "leaflet";
 const gyms = JSON.parse(localStorage.getItem("lista-gyms"));
 
 // Estado para la posición del usuario
-const userLocation = ref([38.3452, -0.4810]);
+const userLocation = ref([38.3615, -0.4684]);
 const zoom = ref(13);
 const router = useRouter(); // Instancia de router
 // Filtros

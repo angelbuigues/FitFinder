@@ -114,7 +114,3 @@ const toggleMenu = () => {
     </div>
   </header>
 </template>
-
-<style scoped>
-/* Estilos adicionales si es necesario */
-</style>
