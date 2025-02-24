@@ -1,7 +1,7 @@
 <template>
     <label
       for="AcceptConditions"
-      class="relative inline-block h-8 w-14 cursor-pointer rounded-full bg-gray-300 transition [-webkit-tap-highlight-color:_transparent] has-[:checked]:bg-green-500"
+      class="relative inline-block h-8 w-14 cursor-pointer rounded-full bg-gray-300 transition [-webkit-tap-highlight-color:_transparent] has-[:checked]:bg-yellow-500"
       >
       <input type="checkbox" id="AcceptConditions" class="peer sr-only" v-model="isDarkTheme"/>
     

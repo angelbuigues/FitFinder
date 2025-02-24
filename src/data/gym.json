@@ -1,80 +1,123 @@
 [
     {
         "name": "FitLife_Gym",
-        "address": "123 Wellness Street",
-        "city": "Ciudad de México",
+        "address": "Avenida de Pintor Baeza, 12",
+        "city": "Alicante",
+        "latitude": 38.3659,
+        "longitude": -0.4935,
         "services": [
-            "Área de pesas",
-            "Clases de yoga",
-            "Entrenador personal",
-            "Piscina",
-            "Clases de spinning"
+            "área de pesas",
+            "clases de yoga",
+            "entrenador personal",
+            "clases de spinning"
         ],
-        "rating": 4.5
+        "rating": 4.5,
+        "pricing": {
+            "one_day": 10,
+            "one_week": 35,
+            "one_month": 60
+        }
     },
     {
         "name": "PowerHouse_Fitness",
-        "address": "456 Strength Ave",
-        "city": "Guadalajara",
+        "address": "Calle San Vicente, 45",
+        "city": "Sant Vicent del Raspeig",
+        "latitude": 38.3968,
+        "longitude": -0.5256,
         "services": [
-            "Área de cardio",
-            "Clases de kickboxing",
-            "Entrenador personal",
-            "Sauna",
-            "Zona de estiramiento"
+            "área de pesas",
+            "clases de yoga",
+            "entrenador personal",
+            "zona de crossfit",
+            "clases de boxeo",
+            "clases de spinning"
         ],
-        "rating": 4.7
+        "rating": 4.7,
+        "pricing": {
+            "one_day": 12,
+            "one_week": 40,
+            "one_month": 65
+        }
     },
     {
         "name": "Elite_Sports",
-        "address": "789 Muscle Blvd",
-        "city": "Monterrey",
+        "address": "Calle Deportista Miriam Blasco, 5",
+        "city": "Alicante",
+        "latitude": 38.3652,
+        "longitude": -0.4365,
         "services": [
-            "Clases de pilates",
-            "Zona de crossfit",
-            "Piscina olímpica",
-            "Entrenamiento en grupo",
-            "Clases de natación"
+            "área de pesas",
+            "clases de yoga",
+            "entrenador personal",
+            "sauna",
+            "piscina",
+            "zona de crossfit",
+            "clases de boxeo",
+            "clases de spinning"
         ],
-        "rating": 4.9
+        "rating": 4.9,
+        "pricing": {
+            "one_day": 15,
+            "one_week": 50,
+            "one_month": 80
+        }
     },
     {
         "name": "Wellness_Hub",
-        "address": "101 Health Dr",
-        "city": "Puebla",
+        "address": "Avenida de la Libertad, 8",
+        "city": "Sant Joan d'Alacant",
+        "latitude": 38.3867,
+        "longitude": -0.4364,
         "services": [
-            "Área de pesas libres",
-            "Entrenamiento funcional",
-            "Clases de HIIT",
-            "Spa",
-            "Clases de baile"
+            "área de pesas",
+            "entrenador personal",
+            "clases de spinning"
         ],
-        "rating": 4.3
+        "rating": 4.3,
+        "pricing": {
+            "one_day": 8,
+            "one_week": 30,
+            "one_month": 55
+        }
     },
     {
         "name": "Fitness_Center",
-        "address": "202 Fit Lane",
-        "city": "Tijuana",
+        "address": "Avenida de Orihuela, 30",
+        "city": "Alicante",
+        "latitude": 38.3375,
+        "longitude": -0.5003,
         "services": [
-            "Clases de Zumba",
-            "Entrenador personal",
-            "Área de cardio",
-            "Clases de boxeo",
-            "Sala de meditación"
+            "área de pesas",
+            "entrenador personal",
+            "sauna",
+            "piscina"
         ],
-        "rating": 4.2
+        "rating": 4.2,
+        "pricing": {
+            "one_day": 9,
+            "one_week": 32,
+            "one_month": 58
+        }
     },
     {
         "name": "Total_Fitness",
-        "address": "303 Strength St",
-        "city": "Querétaro",
+        "address": "Calle de la Universidad, 15",
+        "city": "Alicante",
+        "latitude": 38.3851,
+        "longitude": -0.5073,
         "services": [
-            "Clases de artes marciales",
-            "Área de pesas",
-            "Entrenamiento funcional",
-            "Sauna",
-            "Clases de spinning"
+            "área de pesas",
+            "entrenador personal",
+            "sauna",
+            "piscina",
+            "zona de crossfit",
+            "clases de spinning"
         ],
-        "rating": 4.6
+        "rating": 4.6,
+        "pricing": {
+            "one_day": 11,
+            "one_week": 38,
+            "one_month": 70
+        }
     }
 ]

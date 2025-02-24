@@ -9,9 +9,7 @@ import './assets/canvas.js';
 <template>
   <div class="cuerpo">
     <Headerino />
-    <div id="blackTEXT">
-      <p>¡¡ Encuentra tu gimnasio ideal !!</p>
-    </div>
+    
 
     <RouterView />
     <Footerino />
